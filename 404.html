@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Wrong turn | Vertex Dispatch Services</title>
+  <meta name="theme-color" content="#252830">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/assets/icons/favicon.ico" sizes="any">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --charcoal: #252830; --mist: #F5F6F8; --amber: #F5A623; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; min-height: 100svh; display: grid; place-items: center; text-align: center; padding: 24px;
+      background: radial-gradient(900px 600px at 50% 30%, #3B4252 0, #252830 60%, #181A20); color: var(--mist); font: 16px/1.6 Inter, system-ui, Arial, sans-serif; overflow: hidden; }
+    img { width: 140px; height: 140px; margin: 0 auto 26px; display: block; animation: f 6s ease-in-out infinite; }
+    @keyframes f { 50% { transform: translateY(-10px); } }
+    .code { font: 700 clamp(120px, 26vw, 260px)/.85 'Barlow Condensed', 'Arial Narrow', sans-serif; color: var(--amber); letter-spacing: .02em; }
+    h1 { font: 700 clamp(34px, 5vw, 56px)/1 'Barlow Condensed', 'Arial Narrow', sans-serif; text-transform: uppercase; margin: 14px 0 12px; }
+    p { color: #AAB0BD; max-width: 420px; margin: 0 auto 30px; }
+    a { display: inline-block; padding: 16px 28px; border-radius: 999px; background: var(--amber); color: var(--charcoal); text-decoration: none; font: 600 13px Inter, sans-serif; letter-spacing: .08em; text-transform: uppercase; transition: transform .25s; }
+    a:hover { transform: translateY(-2px); }
+    .road { position: fixed; left: 0; right: 0; bottom: 40px; height: 3px; background: repeating-linear-gradient(90deg, rgba(245,166,35,.6) 0 24px, transparent 24px 44px); background-size: 44px 3px; animation: r 1.2s linear infinite; }
+    @keyframes r { to { background-position: -44px 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="/assets/img/badge-reversed.webp" alt="Vertex Dispatch Services" width="140" height="140">
+    <div class="code">404</div>
+    <h1>Wrong exit.</h1>
+    <p>This page isn't on our route. Let's get you back on the road.</p>
+    <a href="/">Back to home</a>
+  </main>
+  <div class="road" aria-hidden="true"></div>
+</body>
+</html>

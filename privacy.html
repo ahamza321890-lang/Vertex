@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Privacy Policy | Vertex Dispatch Services</title>
+  <meta name="description" content="How Vertex Dispatch Services collects and uses the information you share with us.">
+  <meta name="theme-color" content="#252830">
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>try { var t = localStorage.getItem('vx-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+  <style>
+    .doc-hero { background: var(--charcoal); color: var(--mist); padding: calc(var(--hdr) + 70px) 0 70px; }
+    .doc-hero h1 { font-size: clamp(48px, 7vw, 88px); margin-top: 6px; }
+    .doc-hero p { color: #AAB0BD; margin-top: 14px; }
+    .doc { max-width: 780px; padding-top: 70px; padding-bottom: 110px; }
+    .doc h2 { font-size: 32px; margin: 46px 0 12px; }
+    .doc p, .doc li { color: var(--mu); }
+    .doc p + p { margin-top: 12px; }
+    .doc ul { padding-left: 20px; margin: 12px 0 0; display: grid; gap: 6px; }
+    .doc a { color: var(--tx); text-decoration-color: var(--amber); text-underline-offset: 3px; }
+    .doc-note { margin-top: 30px; padding: 18px 20px; border-radius: 16px; background: var(--bg-alt); border-left: 4px solid var(--amber); font-size: 14px; }
+    .hdr { background: rgba(37, 40, 48, .92); }
+  </style>
+</head>
+<body>
+  <header class="hdr">
+    <div class="hdr-in">
+      <a class="brand" href="index.html" aria-label="Vertex Dispatch Services, home"><img src="assets/img/lockup-reversed.webp" alt="Vertex Dispatch Services" width="220" height="53"></a>
+      <a class="btn btn-amber btn-sm" href="index.html#contact">Get a free quote</a>
+    </div>
+  </header>
+
+  <section class="doc-hero">
+    <div class="wrap">
+      <p class="eyebrow eyebrow-amber">Legal</p>
+      <h1>Privacy policy</h1>
+      <p>Last updated: October 2026</p>
+    </div>
+  </section>
+
+  <main class="wrap doc">
+    <p>This policy explains what information Vertex Dispatch Services ("Vertex", "we", "us") collects through this website, how we use it, and the choices you have. Vertex is operated by <b data-legal>[Legal entity name]</b>, doing business as Vertex Dispatch Services.</p>
+
+    <h2>What we collect</h2>
+    <p>When you request a quote or contact us, we collect the details you choose to share, such as:</p>
+    <ul>
+      <li>Your name, phone number, email address and company name</li>
+      <li>Your equipment type, fleet size and authority status</li>
+      <li>Your home base, preferred lanes and minimum rate</li>
+      <li>Anything else you write in your message</li>
+    </ul>
+    <p>Like most websites, our hosting provider may also log basic technical data such as your IP address, browser type and the pages you visit.</p>
+
+    <h2>How we use it</h2>
+    <ul>
+      <li>To contact you about dispatch services and prepare your quote</li>
+      <li>To set you up as a carrier and dispatch loads, if you sign on with us</li>
+      <li>To keep records required for our business and the law</li>
+    </ul>
+    <p>We do not sell your personal information.</p>
+
+    <h2>Calls, texts and email</h2>
+    <p>By submitting the quote form you agree that we may contact you by phone, text message or email about dispatch services. Message and data rates may apply. You can opt out at any time by replying STOP to a text or asking your dispatcher.</p>
+
+    <h2>Who we share it with</h2>
+    <p>We share information only as needed to run our service, for example with brokers and shippers when booking your loads (with your approval), with the service providers that host this website and process form submissions, or when required by law.</p>
+
+    <h2>How long we keep it</h2>
+    <p>We keep your information for as long as needed to provide our services and meet legal and accounting requirements, then delete it.</p>
+
+    <h2>Your choices</h2>
+    <p>You can ask us to access, correct or delete the information we hold about you. Contact us using the details below.</p>
+
+    <h2>Contact</h2>
+    <p><b data-legal>[Legal entity name]</b>, DBA Vertex Dispatch Services<br>
+      <span data-address>[Street Address], [City, ST ZIP]</span><br>
+      <a data-phone-link href="index.html#contact"><span data-phone>[US Phone]</span></a> &middot; <a data-email-link href="index.html#contact"><span data-email>[name]@[domain].com</span></a></p>
+
+    <p class="doc-note">This policy is a starting template. Have it reviewed so it matches how your business actually handles data and the laws that apply to you.</p>
+  </main>
+
+  <footer class="ftr">
+    <div class="wrap">
+      <div class="ftr-bot">
+        <p>&copy; <span id="year">2026</span> <span data-legal>[Legal entity name]</span>, doing business as Vertex Dispatch Services. Vertex is a dispatch service and not a motor carrier or broker.</p>
+        <p class="tagline">Always Moving. Always Paid.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script>
+    (function () {
+      var C = window.VERTEX_CONFIG || {};
+      function set(sel, v) { if (v) document.querySelectorAll(sel).forEach(function (el) { el.textContent = v; }); }
+      set('[data-phone]', C.phoneDisplay || C.phone); set('[data-email]', C.email);
+      set('[data-address]', C.address); set('[data-legal]', C.legalName);
+      if (C.phone) document.querySelectorAll('[data-phone-link]').forEach(function (a) { a.href = 'tel:' + C.phone; });
+      if (C.email) document.querySelectorAll('[data-email-link]').forEach(function (a) { a.href = 'mailto:' + C.email; });
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
